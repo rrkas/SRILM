@@ -4,7 +4,7 @@
 # $Header: /home/srilm/CVS/srilm/Makefile,v 1.73 2019/09/10 17:48:09 stolcke Exp $
 #
 
-# SRILM = /home/speech/stolcke/project/srilm/devel
+SRILM = $(shell pwd)
 MACHINE_TYPE := $(shell $(SRILM)/sbin/machine-type)
 
 RELEASE := $(shell cat RELEASE)
